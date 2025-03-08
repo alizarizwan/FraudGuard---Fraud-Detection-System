@@ -79,3 +79,7 @@ def get_expenses(token: str = Depends(oauth2_scheme)):
     conn.close()
 
     return [{"user": row[0], "amount": row[1], "category": row[2], "location": row[3], "date": row[4], "fraud_flag": row[5]} for row in rows]
+
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the Smart Expense Tracker API!"}
