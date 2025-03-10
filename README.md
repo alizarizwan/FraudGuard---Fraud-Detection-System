@@ -12,6 +12,7 @@ FraudGuard is a full-stack expense tracking application designed to help users m
 ✅ Dashboard Visualization – Interactive React.js UI to monitor spending trends  
 
 📌 Fraud Detection Logic  
-FraudGuard uses business rules to detect suspicious activity: 🚨 Flags transactions that exceed $5,000  
+FraudGuard uses business rules to detect suspicious activity:   
+🚨 Flags transactions that exceed $5,000  
 🚨 Detects multiple high-value transactions in a short period  
 🚨 Warns users about unusual category spending (e.g., $500 on Fast Food)  
